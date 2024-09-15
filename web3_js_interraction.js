@@ -21,7 +21,7 @@ async function deploy() {
 
 
 
-    // initialize contract aa140eef69e2c04f5bd0773e97238ae1c009cd09e03c5e503bfc86ed80011ec6
+    // initialize contract 
 
      const myContract = new web3.eth.Contract(ABI);
 
