@@ -9,7 +9,7 @@ const web3 = new Web3("https://1rpc.io/sepolia");
 async function deploy() {
 
     // Initialize a Wallet with a private key
-    const wallet = web3.eth.wallet.add("0xaa140eef69e2c04f5bd0773e97238ae1c009cd09e03c5e503bfc86ed80011ec6");
+    const wallet = web3.eth.wallet.add("");
     
     // console.log(wallet);
     // console.log(wallet[0].address);
